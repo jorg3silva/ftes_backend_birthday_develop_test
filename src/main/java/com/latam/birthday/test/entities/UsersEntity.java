@@ -144,6 +144,7 @@ public class UsersEntity {
         userPublic.put("birthDate", dateFormat.format(this.birthDate));
         userPublic.put("age", this.age);
         userPublic.put("leftDays", this.leftDays);
+        userPublic.put("todayBirthday", this.todayBirthday);
         userPublic.put("poem", this.poem);
         userPublic.put("poet", this.poet);
 

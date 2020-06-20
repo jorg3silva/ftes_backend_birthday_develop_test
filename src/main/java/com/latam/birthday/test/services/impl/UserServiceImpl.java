@@ -89,7 +89,7 @@ public class UserServiceImpl implements UserService {
 
             } catch (Exception e) {
                 e.printStackTrace();
-                throw new BusinessException("Cant get poem.");
+                throw new BusinessException("Cant get poem, failed to connect to the API.");
             }
         }
 
