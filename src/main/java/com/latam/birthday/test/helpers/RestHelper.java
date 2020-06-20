@@ -11,7 +11,8 @@ import java.util.Collections;
 
 /**
  *
- * This contains request rest helper
+ *      Class to handle a RestTemplate process
+ *
  * @author Jorge Silva Aguilera
  */
 public class RestHelper {

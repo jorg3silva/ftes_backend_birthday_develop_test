@@ -19,6 +19,7 @@ public class ExceptionRestInterceptorAdvice {
      *
      * @param ex HttpMessageNotReadableException
      * @return ResponseEntity
+     * @author Jorge Silva Aguilera
      */
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public ResponseEntity<String> HttpMessageHandler(HttpMessageNotReadableException ex) {
@@ -34,6 +35,7 @@ public class ExceptionRestInterceptorAdvice {
      *
      * @param exarg MethodArgumentNotValidException
      * @return ResponseEntity
+     * @author Jorge Silva Aguilera
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<String> paramValidationHandler(MethodArgumentNotValidException exarg){
@@ -54,6 +56,7 @@ public class ExceptionRestInterceptorAdvice {
      *
      * @param exarg BusinessException
      * @return ResponseEntity
+     * @author Jorge Silva Aguilera
      */
     @ExceptionHandler(BusinessException.class)
     public ResponseEntity<String> BusinesHandler(BusinessException exarg) {
@@ -74,6 +77,7 @@ public class ExceptionRestInterceptorAdvice {
      *
      * @param exarg Exception
      * @return ResponseEntity
+     * @author Jorge Silva Aguilera
      */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<String> internalHandler(Exception exarg) {

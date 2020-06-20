@@ -1,12 +1,16 @@
 package com.latam.birthday.test.dto;
-import com.fasterxml.jackson.annotation.JsonFormat;
 
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
+/**
+ *
+ *  Dto class for valid API data
+ *
+ *
+ * @author Jorge Silva Aguilera
+ */
 public class UserCreateDto {
 
     @NotNull

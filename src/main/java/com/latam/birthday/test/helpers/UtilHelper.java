@@ -7,6 +7,14 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+
+/**
+ *
+ *          cross app logic is here.
+ *
+ *
+ * @author Jorge Silva Aguilera
+ */
 public class UtilHelper {
 
     /**

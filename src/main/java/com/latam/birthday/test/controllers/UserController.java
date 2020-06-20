@@ -50,6 +50,7 @@ public class UserController {
      *
      * @param userCreateDto UserCreateDto
      * @return ResponseEntity<User>
+     * @author Jorge Silva Aguilera
      */
     @PostMapping(path="/create")
     public ResponseEntity<?> create(@Valid @RequestBody UserCreateDto userCreateDto ){

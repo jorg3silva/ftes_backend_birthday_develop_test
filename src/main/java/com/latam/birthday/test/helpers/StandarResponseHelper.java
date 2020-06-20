@@ -4,6 +4,13 @@ import com.google.gson.GsonBuilder;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+
+/**
+ *
+ *      This contain a standar response structure for API
+ *
+ * @author Jorge Silva Aguilera
+ */
 public class StandarResponseHelper {
 
     /**
@@ -22,6 +29,7 @@ public class StandarResponseHelper {
      * @param o Any object to return in json response
      * @param message string with info to consumer
      * @return String Json
+     * @author Jorge Silva Aguilera
      */
     public static final String success(Object o, String message) {
         HashMap<String, Object> response = new LinkedHashMap<>();
@@ -37,6 +45,7 @@ public class StandarResponseHelper {
      *
      * @param errorMessage string with info to consumer
      * @return String Json
+     * @author Jorge Silva Aguilera
      */
     public static final String error(Object errorMessage) {
         HashMap<String, Object> response = new LinkedHashMap<>();

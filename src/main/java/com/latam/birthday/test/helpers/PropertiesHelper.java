@@ -4,6 +4,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 
+/**
+ *      An easy way to optain properties
+ *
+ * @author Jorge Silva Aguilera
+ */
 @Component
 public final class PropertiesHelper {
 

@@ -31,6 +31,15 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private PropertiesHelper property;
 
+    /**
+     *
+     *
+     *      Get user data, process, calculate age, birthday.
+     *
+     * @param userDto UserCreateDto Data transfer with minimal data to create user
+     * @return UsersEntity with process user data
+     * @author Jorge Silva Aguilera
+     */
     @Override
     public UsersEntity create(UserCreateDto userDto) {
 
@@ -100,7 +109,10 @@ public class UserServiceImpl implements UserService {
 
     /**
      *
+     *      Build URI to get poem
+     *
      * @return Poem
+     * @author Jorge Silva Aguilera
      */
     private String getPoem() throws Exception {
         UriComponentsBuilder builder = UriComponentsBuilder.newInstance()
@@ -124,6 +136,7 @@ public class UserServiceImpl implements UserService {
      * @param builder b
      * @param entity e
      * @throws Exception ex
+     * @author Jorge Silva Aguilera
      */
     private String callToService(UriComponentsBuilder builder, HttpEntity<String> entity) throws Exception {
         int access = 0;

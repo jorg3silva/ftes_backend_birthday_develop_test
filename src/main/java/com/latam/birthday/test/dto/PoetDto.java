@@ -1,5 +1,11 @@
 package com.latam.birthday.test.dto;
 
+
+/**
+ *      Domain class por Poet return
+ *
+ * @author Jorge Silva Aguilera
+ */
 public class PoetDto {
 
     private String name;

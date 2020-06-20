@@ -9,6 +9,7 @@ public interface UserService {
      *
      * @param userDto UserCreateDto Data transfer with minimal data to create user
      * @return UserEntity user entity with full data
+     * @author Jorge Silva Aguilera
      */
     UsersEntity create(UserCreateDto userDto);
 }

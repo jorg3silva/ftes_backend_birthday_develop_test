@@ -21,9 +21,7 @@ public class UsersEntity {
         this.birthDate = birthDate;
     }
 
-    public UsersEntity(){
-
-    }
+    public UsersEntity(){}
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
