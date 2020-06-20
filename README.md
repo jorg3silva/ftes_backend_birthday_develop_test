@@ -6,7 +6,7 @@ This project was generated with https://start.spring.io/
 
 * Requirements:
   * Java 1.8
-  * mvn
+  * mvn 3
 
 ## Development server
 Run this commands to deploy local development server.
@@ -24,5 +24,5 @@ For run tests:
 
 ## Endpoint
 
-   * Base URL: http://localhost:8080/api/v1
-   * User Birthday endpoint (POST): http://localhost:8080/api/v1/users/create
+   * Base URL: http://localhost:8081/api/v1
+   * User Birthday endpoint (POST): http://localhost:8081/api/v1/users/create
