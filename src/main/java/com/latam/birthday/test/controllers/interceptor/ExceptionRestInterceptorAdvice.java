@@ -78,7 +78,7 @@ public class ExceptionRestInterceptorAdvice {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<String> internalHandler(Exception exarg) {
 
-        System.out.println(exarg.getMessage());
+        exarg.printStackTrace();
 
         String msg = "Some operation cant carry out";
         return new ResponseEntity<>(

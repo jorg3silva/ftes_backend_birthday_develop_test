@@ -16,6 +16,11 @@ Run this commands to deploy local development server.
 or direclty using mvn:
 
  * `mvn spring-boot:run`
+ 
+ ## Unit tests
+
+For run tests:
+ * `mvn test`
 
 ## Endpoint
 
