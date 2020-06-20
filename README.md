@@ -20,7 +20,7 @@ or direclty using mvn:
  ## Unit tests
 
 For run tests:
- * `mvn test`
+ * `mvn clean test`
 
 ## Endpoint
 
